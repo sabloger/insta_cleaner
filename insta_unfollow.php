@@ -14,19 +14,10 @@ echo "Rank Token: " . $rankToken . "\n";
 
 $res = $ig->people->getSelfFollowing($rankToken);
 
+// Sample white list
 $whiteList = [
     'physicsfun',
-    'bbcpersian',
-    'dr_holakuee',
-    'mehradhiddenofficial',
-    'ghomayshi',
-    'dafdaf_production',
-    'reportage_ads',
-    'picxagram',
-    'iran_verifiedbadge',
-    'virlan.com_news',
-    'n.moein',
-    'radio.ghermez',
+    'bbc',
 ];
 
 $uFile = fopen('unfollowed.log', 'a');
