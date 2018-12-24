@@ -1,0 +1,12 @@
+{
+    "name": "root/insta_unfollow",
+    "authors": [
+        {
+            "name": "Saeed",
+            "email": "sabloger@gmail.com"
+        }
+    ],
+    "require": {
+        "mgp25/instagram-php": "^5.0"
+    }
+}
